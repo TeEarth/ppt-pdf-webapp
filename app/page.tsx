@@ -3,9 +3,9 @@ export default function Home() {
     <main style={{ padding: 20 }}>
       <h2>ระบบสร้าง PPT และแปลง PDF</h2>
 
-      <h3>งานที่ 1 : สร้าง PPT → รูป</h3>
+      <h3>งานที่ 1 : สร้าง PPT</h3>
       <form
-        action="https://YOUR-BACKEND-URL/generate-ppt"
+        action="https://RAILWAY_URL/generate-ppt"
         method="post"
         encType="multipart/form-data"
       >
@@ -19,7 +19,7 @@ export default function Home() {
 
       <h3>งานที่ 2 : PDF → รูป</h3>
       <form
-        action="https://YOUR-BACKEND-URL/pdf-to-image"
+        action="https://RAILWAY_URL/pdf-to-image"
         method="post"
         encType="multipart/form-data"
       >

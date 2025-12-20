@@ -5,7 +5,7 @@ export default function Home() {
 
       <h3>งานที่ 1 : สร้าง PPT</h3>
       <form
-        action="https://RAILWAY_URL/generate-ppt"
+        action="https://ppt-pdf-backend-production.up.railway.app/generate-ppt"
         method="post"
         encType="multipart/form-data"
       >
@@ -19,7 +19,7 @@ export default function Home() {
 
       <h3>งานที่ 2 : PDF → รูป</h3>
       <form
-        action="https://RAILWAY_URL/pdf-to-image"
+        action="https://ppt-pdf-backend-production.up.railway.app/pdf-to-image"
         method="post"
         encType="multipart/form-data"
       >
